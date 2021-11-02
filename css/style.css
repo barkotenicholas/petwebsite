@@ -57,6 +57,16 @@ main{
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: row;
     justify-content: space-between;
     background-image: url("../images/pets.jpg");
+}
+main .dogs{
+    flex: 1;
+}
+main .cats{
+    flex: 1;
+}
+main .parrots{
+    flex: 1;
 }
